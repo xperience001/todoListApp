@@ -1,3 +1,3 @@
 # TodoListApi
 just a restful api for keeping todos.
-Just for simplicity
+Just simplicity
