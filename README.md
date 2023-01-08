@@ -1,2 +1,2 @@
 # TodoListApi
-just a restful api for keeping todos
+just a restful api for keeping todos.
