@@ -36,7 +36,7 @@ class Habeeb {
     checkvalidity(numbers){
         return new promise ((resolve,reject)=>{
             if(numbers%2==0){
-                resolve (numbers, 'is even');
+                resolve (numbers, `yes, it's even`);
             }
             reject (numbers, 'not even');
         }
