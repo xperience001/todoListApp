@@ -11,7 +11,7 @@ const TaskSchema = new Schema({
   task_des: {
     type: String,
     required: 'Kindly enter the task here',
-    default:'your description'
+    default:'your description please'
   },
   Created_date: {
     type: Date,
