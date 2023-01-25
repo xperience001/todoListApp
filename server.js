@@ -2,7 +2,7 @@ const express = require('express'),
   app = express(),
   port = process.env.PORT || 3500,
   mongoose = require('mongoose'),
-  abass = require('./Abass');
+  habeeb = require('./Habeeb');
   bodyParser = require('body-parser');
   
 // mongoose instance connection url connection
@@ -14,13 +14,13 @@ mongoose.connect('mongodb://localhost:27017/Tododb', { useNewUrlParser: true })
   console.log('db error occured', error);
 }); 
 
-abass.checkName('Makinde').then( (response)=>{
+habeeb.checkName('Makinde').then( (response)=>{
   console.log(response);
 }).catch( (error)=>{
   console.log(error);
 });
 
-const isAgeValid = abass.checkAge(1);
+const isAgeValid = habeeb.checkAge(1);
 if(isAgeValid){
   console.log('yeah it is valid');
 }
