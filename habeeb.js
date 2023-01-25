@@ -1,5 +1,5 @@
 
-class Abass {
+class Habeeb {
 
     checkName(name){
         return new Promise( (resolve, reject) =>{
