@@ -26,7 +26,6 @@ if(isAgeValid){
 }
 else{
   console.log('nay! it is not valid');
-
 }
 
 app.use(bodyParser.urlencoded({ extended: true }));
